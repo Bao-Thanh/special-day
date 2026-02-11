@@ -93,7 +93,7 @@ body {
     margin-top: 0;
     opacity: 0.2;
     transition: opacity 0.3s;
-    transform: scale(0.7);
+    transform: scale(1.2);
     z-index: 2;
     animation: subtle-hint 2s infinite alternate;
     animation-delay: 5s;
@@ -280,12 +280,13 @@ h2 {
 
 
 .celebration-text {
-    font-size: 3em;
+    font-size: 2.5em;
     color: #ff4757;
     font-weight: bold;
     margin: 30px 0;
     animation: bounce var(--bounce-speed) infinite alternate;
     text-shadow: 2px 2px 4px rgba(255, 71, 87, 0.3);
+    white-space: pre-line;
 }
 
 @keyframes subtle-hint {
