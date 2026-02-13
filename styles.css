@@ -226,6 +226,7 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 5px;
+    color:#47bfff
 }
 
 @keyframes bounce {
